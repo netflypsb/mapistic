@@ -1,0 +1,12 @@
+node_modules/
+.next/
+build/
+*.sqlite
+*.bundle
+node_modules
+.next
+.vercel
+secrets/
+*.env
+.env*.local
+mapistic.env

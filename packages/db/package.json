@@ -1,0 +1,11 @@
+{
+  "name": "@dawnistic/mapistic-db",
+  "version": "2.0.0",
+  "private": true,
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.0",
+    "drizzle-orm": "^0.40.0"
+  }
+}

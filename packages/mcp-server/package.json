@@ -1,0 +1,7 @@
+{
+  "name": "@dawnistic/mapistic-mcp",
+  "version": "2.0.0",
+  "bin": {
+    "mapistic-mcp": "./server.mjs"
+  }
+}

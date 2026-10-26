@@ -1,0 +1,17 @@
+{
+  "name": "mapistic-monorepo",
+  "version": "2.0.0",
+  "private": true,
+  "packageManager": "pnpm@9.12.0",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "test": "node --test tests/mapistic.test.mjs",
+    "smoke-test": "node data-pipeline/smoke-test-malaysia.ts"
+  },
+  "Workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}

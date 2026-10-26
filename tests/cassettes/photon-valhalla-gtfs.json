@@ -1,0 +1,128 @@
+{
+  "photon_search": {
+    "jalan ampang 50088 kuala lumpur": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": { "type": "Point", "coordinates": [101.7116, 3.1579] },
+          "properties": {
+            "osm_id": 24781901,
+            "osm_type": "W",
+            "osm_key": "tourism",
+            "osm_value": "attraction",
+            "name": "Petronas Twin Towers (KLCC)",
+            "name:ms": "Menara Berkembar Petronas (KLCC)",
+            "name:en": "Petronas Twin Towers (KLCC)",
+            "name:zh": "吉隆坡国油双峰塔",
+            "street": "Jalan Ampang",
+            "postcode": "50088",
+            "district": "Kuala Lumpur",
+            "state": "Wilayah Persekutuan Kuala Lumpur",
+            "countrycode": "MY"
+          }
+        }
+      ]
+    },
+    "default": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": { "type": "Point", "coordinates": [102.2386, 6.1333] },
+          "properties": {
+            "osm_id": 10928371,
+            "osm_type": "N",
+            "name": "Pasar Siti Khadijah, Kota Bharu",
+            "name:ms": "Pasar Besar Siti Khadijah, Jalan Buluh Kubu, Kota Bharu",
+            "name:en": "Siti Khadijah Market, Kota Bharu",
+            "street": "Jalan Buluh Kubu",
+            "postcode": "15000",
+            "district": "Kota Bharu",
+            "state": "Kelantan",
+            "countrycode": "MY"
+          }
+        }
+      ]
+    }
+  },
+  "valhalla_routes": {
+    "klcc_to_penang_auto": {
+      "length_km": 354.6,
+      "time_sec": 14160,
+      "has_toll": true,
+      "waypoints": [
+        [101.7116, 3.1579],
+        [101.6512, 3.2104],
+        [101.5241, 3.5892],
+        [101.0901, 4.5975],
+        [100.7412, 4.8521],
+        [100.4912, 5.1423],
+        [100.4021, 5.3541],
+        [100.3125, 5.3548],
+        [100.2769, 5.2971]
+      ],
+      "maneuvers": [
+        {
+          "instruction": "Drive north on Jalan Tun Razak toward Lebuhraya Utara-Selatan (E1).",
+          "street_names": ["Jalan Tun Razak"],
+          "length": 6.4,
+          "time": 540,
+          "toll": false
+        },
+        {
+          "instruction": "Continue on Lebuhraya Utara-Selatan (PLUS E1) past Ipoh and Taiping.",
+          "street_names": ["Lebuhraya Utara-Selatan", "E1", "AH2"],
+          "length": 328.5,
+          "time": 12420,
+          "toll": true
+        },
+        {
+          "instruction": "Take Exit 161 onto Jambatan Pulau Pinang (E36) and arrive at Penang International Airport.",
+          "street_names": ["Jambatan Pulau Pinang", "E36", "Jalan Sultan Azlan Shah"],
+          "length": 19.7,
+          "time": 1200,
+          "toll": true
+        }
+      ],
+      "alternates": [
+        {
+          "trip": {
+            "summary": { "length": 389.2, "time": 19400, "has_toll": false }
+          }
+        }
+      ]
+    },
+    "kk_to_sandakan_auto": {
+      "length_km": 334.2,
+      "time_sec": 20100,
+      "has_toll": false,
+      "waypoints": [
+        [116.0735, 5.9804],
+        [116.2512, 6.0124],
+        [116.6651, 5.9621],
+        [117.1319, 5.6311],
+        [117.6512, 5.7412],
+        [118.1172, 5.8394]
+      ],
+      "maneuvers": [
+        {
+          "instruction": "Drive east on Jalan Lintas (FT1) toward Kundasang and Ranau.",
+          "street_names": ["Jalan Lintas", "FT1"],
+          "length": 108.4,
+          "time": 6900,
+          "toll": false
+        },
+        {
+          "instruction": "Continue on Lebuhraya Pan Borneo (AH150 / FT22) through Telupid.",
+          "street_names": ["Lebuhraya Pan Borneo", "AH150", "FT22"],
+          "length": 225.8,
+          "time": 13200,
+          "toll": false,
+          "rough": true
+        }
+      ],
+      "alternates": []
+    }
+  }
+}
